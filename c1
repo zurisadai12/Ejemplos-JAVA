@@ -1,0 +1,15 @@
+public class C1 {
+	public static void main(String[] args){
+		int resultado;
+		resultado = resta();
+		System.out.println("el resultado es: "+resultado);
+	}
+	public static int resta (){
+		int x=34, y=15;
+		int resta = x-y;
+		return resta;
+		
+		
+	} 
+
+}
