@@ -1,0 +1,11 @@
+public class A1 {
+	public static void main(String[] args){
+	resta();
+}
+	public static void resta(){
+		int x=24;
+		int y=19;
+		int resta = x-y;
+		System.out.println("la respuesta es: "+resta);
+	}
+}
