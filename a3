@@ -1,0 +1,12 @@
+public class A3 {
+	public static void main (String[] args){
+		divicion();
+	}
+	public static void divicion(){
+		int x=20;
+		int y=5;
+		int divicion = x/y;
+		System.out.println("la respuesta es :"+divicion);
+	}
+
+}
