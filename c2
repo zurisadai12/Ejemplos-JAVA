@@ -1,0 +1,13 @@
+public class C2 {
+	public static void main (String[] args){
+		int resultado;
+		resultado= multiplicacion();
+		System.out.println("el resultado es: "+resultado);
+	}
+	public static int multiplicacion(){
+		int x =23, y=9;
+		int multiplicacion = x*y;
+		return multiplicacion;
+	}
+
+}
