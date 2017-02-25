@@ -1,0 +1,15 @@
+public class B2 {
+	public static void main (String[] args){
+		divicion(25,5);
+		resta(23,16);
+	}
+	public static void divicion(int x, int y){
+		int divicion = x/y;
+		System.out.println("el resultado es: "+divicion);
+	}
+	public static void resta(int x, int y){
+		int resta= x-y;
+		System.out.println("el resultado es: "+resta);
+	}
+
+}
