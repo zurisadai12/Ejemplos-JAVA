@@ -1,0 +1,11 @@
+public class A5 {
+	public static void main(String[] args){
+		potencia();
+	}
+	public static void potencia(){
+		int a=3;
+		int potencia = a*a;
+		System.out.println("la respuesta es: "+potencia);
+	}
+
+}
