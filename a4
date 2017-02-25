@@ -1,0 +1,12 @@
+public class A4 {
+	public static void main (String[] args){
+		suma();
+	}
+	private static void suma(){
+		int x=35;
+		int y=5;
+		int suma = x+y;
+		System.out.println ("la respuesta es: "+suma);
+	}
+
+}
