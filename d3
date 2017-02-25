@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class D3 {
+	public static void main(String[] args){
+		Scanner sc = new Scanner (System.in);
+		int num1, num2, resultado;
+		System.out.println("introduce el primer numero");
+		num1=sc.nextInt();
+		System.out.println("introduce el segundo numero");
+		num2=sc.nextInt();
+		resultado= resta (num1, num2);
+		System.out.println("la resta es igual: "+resultado);
+	}
+	private static int resta (int num1, int num2){
+		int c;
+		c=num1 - num2;
+		return c;
+		
+	}
+
+}
