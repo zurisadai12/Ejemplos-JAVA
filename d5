@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class D5 {
+	public static void main (String[] args){
+	Scanner sc= new Scanner(System.in);
+	int num1, resultado;
+	System.out.println("introduce el numero");
+	num1 = sc.nextInt();
+	resultado = potencia(num1);
+	System.out.println("su cuadrado es:"+ resultado);
+	}
+	private static int potencia (int num1){
+		int c;
+		c = num1*num1;
+		return c;
+	}
+	
+
+}
