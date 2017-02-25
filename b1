@@ -1,0 +1,15 @@
+public class B1 {
+	public static void main (String[] args){
+		sumar(15,19);
+		multiplicacion(23,32);
+	}
+	public static void sumar (int x, int y){
+		int suma = x + y;
+		System.out.println("el resultado es: "+suma);
+	}
+	public static void multiplicacion (int x, int y){
+		int multiplicacion= x * y;
+		System.out.println("el resultado es: "+multiplicacion);
+	}
+
+}
