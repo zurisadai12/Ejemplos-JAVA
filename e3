@@ -1,0 +1,19 @@
+public class E3 {
+	public static void main (String[] args){
+		sumar ();
+		resta();
+	}
+	public static void sumar(){
+		int x = 9;
+		int y = 8;
+		int suma= x + y;
+		System.out.println("el resultado es: "+suma);
+	}
+	public static void resta(){
+		int x = 9;
+		int y= 8;
+		int resta = x-y;
+		System.out.println("el resultado es: "+resta);
+	}
+
+}
