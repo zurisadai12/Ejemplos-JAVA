@@ -1,0 +1,15 @@
+public class E1 {
+	public static void main (String[] args){
+		sumar (3,5);
+		resta (4,2);
+	}
+	public static void sumar (int x, int y){
+		int suma = x + y;
+		System.out.println("el resultado es: "+suma);
+	}
+	public static void resta (int x, int y){
+		int resta = x-y;
+		System.out.println("el resultado es: "+resta);
+	}
+
+}
