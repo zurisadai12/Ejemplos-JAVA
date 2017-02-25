@@ -1,0 +1,11 @@
+public class A2 {
+	public static void main (String[] args){
+		multiplicar();
+	}
+public static void multiplicar(){
+	int a=6;
+	int b=65;
+	int multiplicar = a*b;
+	System.out.println("la respuesta es :"+multiplicar);
+}
+}
