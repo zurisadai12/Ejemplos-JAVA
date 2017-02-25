@@ -1,0 +1,15 @@
+public class B4 {
+	public static void main (String[] args){
+		potencia(3);
+		resta(12,8);
+	}
+	public static void potencia(int x){
+		int potencia = x*x;
+		System.out.println("el resultado es: "+potencia);
+	}
+	public static void resta(int x, int y){
+		int resta= x-y;
+		System.out.println("el resultado es: "+resta);
+	}
+
+}
